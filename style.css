@@ -60,3 +60,34 @@ body {
   text-align: center;
   z-index: 1;
 }
+
+#container-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-border {
+  padding: 10px 20px;
+  border-radius: 100px;
+  width: 100px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+#fire {
+  background-color: red;
+  border: 3px dashed red;
+}
+
+#water {
+  background-color: blue;
+  border: 5px double blue;
+}
+
+#earth {
+  background-color: green;
+  border: 6px groove green;
+}
