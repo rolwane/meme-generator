@@ -91,3 +91,23 @@ body {
   background-color: green;
   border: 6px groove green;
 }
+
+#memes {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.meme {
+  width: 100px;
+  height: 110px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 300ms ease;
+}
+
+.meme:hover {
+  transform: scale(1.1);
+}
